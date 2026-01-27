@@ -1,44 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Deepakkumar Rathour</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
 
-<section class="projects">
+<body>
+
+<section class="projects" id="projects">
   <h2 class="section-title">Projects</h2>
 
-  <div class="projects-wrapper">
-
-    <div class="project-card">
-      <h3>CI/CD Automation using Jenkins & Docker</h3>
-      <p>
-        Implemented an end-to-end CI/CD pipeline using Jenkins for automated
-        deployments on AWS EC2 using Docker and GitHub integration.
-      </p>
-      <p><strong>Tech:</strong> AWS EC2, Jenkins, Docker, GitHub, Linux</p>
-      <a href="https://github.com/DeepakkumarRathour/directus-devops-project" target="_blank">
-        View Project →
-      </a>
-    </div>
-
-    <div class="project-card">
-      <h3>Two-Tier Application Deployment on AWS EKS</h3>
-      <p>
-        Deployed a Flask–MySQL two-tier application on Amazon EKS using Docker
-        and Helm with load balancing and high availability.
-      </p>
-      <p><strong>Tech:</strong> AWS EKS, Kubernetes, Docker, Helm</p>
-      <a href="https://github.com/DeepakkumarRathour/Two-tier-app-deployment" target="_blank">
-        View Project →
-      </a>
-    </div>
-
-    <div class="project-card">
-      <h3>Containerized Application on AWS EKS using Ingress & ALB</h3>
-      <p>
-        Deployed a containerized application on AWS EKS using Ingress
-        and AWS Load Balancer Controller with IAM OIDC integration.
-      </p>
-      <p><strong>Tech:</strong> AWS EKS, Kubernetes, Ingress, ALB, IAM</p>
-      <a href="https://github.com/DeepakkumarRathour/Deploying-a-Containerized-Application-on-Amazon-EKS-using-Ingress-and-AWS-Load-Balancer-Controller" target="_blank">
-        View Project →
-      </a>
-    </div>
-
+  <!-- Project 1 -->
+  <div class="project-card">
+    <h3>CI/CD Automation using Jenkins & Docker</h3>
+    <p>
+      Designed and implemented an automated CI/CD pipeline using Jenkins for
+      application deployment on AWS EC2. Docker and Docker Compose were used
+      for containerization and orchestration, enabling faster and reliable deployments.
+    </p>
+    <p><strong>Tech Stack:</strong> AWS EC2, Jenkins, Docker, Docker Compose, GitHub, Linux</p>
+    <a href="https://github.com/DeepakkumarRathour/directus-devops-project" target="_blank">
+      🔗 View on GitHub
+    </a>
   </div>
+
+  <!-- Project 2 -->
+  <div class="project-card">
+    <h3>Two-Tier Application Deployment on AWS EKS</h3>
+    <p>
+      Deployed a scalable two-tier Flask–MySQL application on Amazon EKS capable
+      of handling high traffic. Used Docker for containerization and Helm for
+      Kubernetes deployment with load balancing and high availability.
+    </p>
+    <p><strong>Tech Stack:</strong> AWS EKS, Kubernetes, Docker, Helm, Flask, MySQL, eksctl</p>
+    <a href="https://github.com/DeepakkumarRathour/Two-tier-app-deployment" target="_blank">
+      🔗 View on GitHub
+    </a>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-card">
+    <h3>Containerized Application on AWS EKS using Ingress & ALB</h3>
+    <p>
+      Deployed a containerized 2048 game on AWS EKS using Fargate.
+      Configured Kubernetes Ingress with AWS Load Balancer Controller
+      to expose the application securely via ALB.
+    </p>
+    <p><strong>Tech Stack:</strong> AWS EKS, Kubernetes, Fargate, Ingress, ALB, IAM, Helm</p>
+    <a href="https://github.com/DeepakkumarRathour/Deploying-a-Containerized-Application-on-Amazon-EKS-using-Ingress-and-AWS-Load-Balancer-Controller" target="_blank">
+      🔗 View on GitHub
+    </a>
+  </div>
+
 </section>
+
+</body>
+</html>
